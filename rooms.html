@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Rooms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="HOTEL LOGO.jpg" alt="Logo" width="50">
+            </a>
+            
+            <!-- Navigation Toggle Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navigation Items -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-bold" href="rooms.html">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="reservation.html">Reservation Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="min-vh-100 text-light">
+        <div class="container py-5">
+            <h2 class="text-center mb-4">Our Luxury Rooms</h2>
+            
+            <div class="row g-4">
+                <!-- Room Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card1">
+                        <img src="27ac5932443279052423576825c68ce7.jpg" class="card-img-top" alt="Single Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Single Room</h5>
+                            <p class="card-text">Perfect for solo travelers, featuring modern amenities and comfortable furnishings.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $100/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="776b4d34a65120988311675218a44091.jpg" class="card-img-top" alt="Double Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Room</h5>
+                            <p class="card-text">Spacious room with two beds, ideal for couples or friends traveling together.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $150/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="room3.jpg" class="card-img-top" alt="Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Suite</h5>
+                            <p class="card-text">Our finest accommodation with separate living area and premium amenities.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $250/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <button id="btn" class="btn btn-outline-info px-5 py-3 mb-3" style="margin-left: 42.5%;">Show More</button>
+    
+    
+    <section class="min-vh-100 text-light d-none" id="sec">
+        <div class="container py-5">            
+            <div class="row g-4">
+                <!-- Room Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card1">
+                        <img src="27ac5932443279052423576825c68ce7.jpg" class="card-img-top" alt="Single Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Single Room</h5>
+                            <p class="card-text">Perfect for solo travelers, featuring modern amenities and comfortable furnishings.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $100/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="776b4d34a65120988311675218a44091.jpg" class="card-img-top" alt="Double Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Room</h5>
+                            <p class="card-text">Spacious room with two beds, ideal for couples or friends traveling together.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $150/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="room3.jpg" class="card-img-top" alt="Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Suite</h5>
+                            <p class="card-text">Our finest accommodation with separate living area and premium amenities.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $250/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section class="min-vh-100 text-light d-none" id="sec2">
+        <div class="container py-5">            
+            <div class="row g-4">
+                <!-- Room Card 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 card1">
+                        <img src="27ac5932443279052423576825c68ce7.jpg" class="card-img-top" alt="Single Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Single Room</h5>
+                            <p class="card-text">Perfect for solo travelers, featuring modern amenities and comfortable furnishings.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $100/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="776b4d34a65120988311675218a44091.jpg" class="card-img-top" alt="Double Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Double Room</h5>
+                            <p class="card-text">Spacious room with two beds, ideal for couples or friends traveling together.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $150/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Room Card 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100">
+                        <img src="room3.jpg" class="card-img-top" alt="Suite">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Suite</h5>
+                            <p class="card-text">Our finest accommodation with separate living area and premium amenities.</p>
+                            <p class="card-text"><small class="text-muted">Starting from $250/night</small></p>
+                            <a href="reservation.html" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

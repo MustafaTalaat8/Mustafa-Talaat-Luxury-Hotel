@@ -1,0 +1,19 @@
+#home{
+    height: 87vh;
+}
+#name{
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(7, 128, 226);
+}
+#form{
+    background-color: rgb(48, 56, 65);
+}
+.reser{
+    height: 87.5vh;
+}
+@media screen and (max-width:1000px){
+    #home{
+        height: auto;
+    }
+}
